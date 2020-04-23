@@ -15,7 +15,63 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Logo', name: 'logo', widget: 'image' }
+      - { label: 'Title', name: 'title', widget: 'hidden', default: 'home' }
+      - {
+        label: 'Intro Text',
+        name: 'intro',
+        widget: 'list',
+        collapsed: false,
+        field: { label: 'Text', name: 'text', widget: 'string' }
+      }
+      - label: 'Components'
+        name: 'components'
+        widget: 'list'
+        collapsed: false
+        types:
+          - label: 'Component 1'
+            name: 'component_1'
+            widget: 'object'
+            fields:
+                - { label: 'Image', name: 'image', widget: 'image' }
+                - { label: 'Headline', name: 'headline', widget: 'string' }
+                - { label: 'Description', name: 'description', widget: 'string' }
+          - label: 'Component 2'
+            name: 'component_2'
+            widget: 'object'
+            fields:
+                - { label: 'Image', name: 'image', widget: 'image' }
+                - label: 'Sub-components'
+                  name: 'subcomponents'
+                  widget: 'list'
+                  collapsed: false
+                  types:
+                    - label: 'Quote'
+                      name: 'quote'
+                      widget: 'object'
+                      fields:
+                        - { label: 'Quote', name: 'quote', widget: 'string' }
+                        - { label: 'Source', name: 'source', widget: 'string' }
+                        - { label: 'CTA Label', name: 'cta_label', widget: 'string' }
+                        - { label: 'CTA URL', name: 'cta_url', widget: 'string'}
+                    - label: 'stat'
+                      name: 'stat'
+                      widget: 'object'
+                      fields:
+                        - { label: 'Icon', name: 'icon', widget: 'image' }
+                        - { label: 'Stat Number', name: 'number', widget: 'string' }
+                        - { label: 'Stat Description', name: 'description', widget: 'string' }
+          - label: 'Component 3'
+            name: 'component_3'
+            widget: 'object'
+            fields:
+              - { label: 'Headline', name: 'headline', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'string' }
+              - label: 'Cards'
+                name: 'cards'
+                widget: 'list'
+                collapsed: false
+                fields:
+                  - { label: 'Icon', name: 'icon', widget: 'image' }
+                  - { label: 'Description', name: 'description', widget: 'markdown' }
+            
