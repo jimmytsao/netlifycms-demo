@@ -2,5 +2,38 @@
   "date": "2020-04-23T15:05:31.831Z",
   "title": "Home",
   "description": "Homepage",
-  "body": "Rich Text Field"
+  "body": "Rich Text Field",
+  "intro": [
+    "See how we're inventing the medicines of the future.",
+    "And helping millions llive better today.",
+    "Here. Now."
+  ],
+  "components": [
+    {
+      "type": "component_1",
+      "image": "/img/maurizio-mobile.0183a7a2.webp",
+      "headline": "How do we help patients?",
+      "description": "We discover and deliver medicines that make a remarkable impact on patients right now."
+    },
+    {
+      "type": "component_2",
+      "image": "/img/jennifer.0e31d487.webp",
+      "subcomponents": [
+        {
+          "type": "quote",
+          "quote": "\"They're dedicating their lives and their science to make the world a better place. If I were to meet the AbbVie scientists. I would just hug them.\"",
+          "source": "Jennifer",
+          "cta_label": "Watch Jennifer's story",
+          "cta_url": "https://youtu.be/-JupxuNziqo"
+        },
+        {
+          "type": "stat",
+          "icon": "/img/icon-1.svg",
+          "number": "4M+",
+          "description": "people a year take AbbVie medicines in the U.S."
+        }
+      ]
+    }
+  ],
+  "logo": "/img/logo.svg"
 }
