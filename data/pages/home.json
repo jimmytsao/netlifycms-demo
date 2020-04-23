@@ -33,6 +33,25 @@
           "description": "people a year take AbbVie medicines in the U.S."
         }
       ]
+    },
+    {
+      "type": "component_3",
+      "headline": "Our commitment to health doesn't stop with our medicines",
+      "description": "We take our part in the global community seriously by supporting the patients we serve, the people we employ and the world we live in.",
+      "cards": [
+        {
+          "icon": "/img/card-1.svg",
+          "description": "AbbVie employees volunteered over 68k hours in 2019"
+        },
+        {
+          "icon": "/img/card-2.svg",
+          "description": "**$350M**\n\nin charitable contributions to support U.S. nonprofits iin 2018"
+        },
+        {
+          "icon": "/img/card-3.svg",
+          "description": "Partnering with nonprofits that help children facing serious illnesses and those who care for them"
+        }
+      ]
     }
   ],
   "logo": "/img/logo.svg"
