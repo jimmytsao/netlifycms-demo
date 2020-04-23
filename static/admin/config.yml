@@ -16,7 +16,7 @@ collections:
       preview: false
     fields:
       - { label: 'Logo', name: 'logo', widget: 'image' }
-      - { label: 'Title', name: 'title', widget: 'hidden', default: 'home' }
+      - { label: 'Title', name: 'title', widget: 'string', default: 'home' }
       - {
         label: 'Intro Text',
         name: 'intro',
