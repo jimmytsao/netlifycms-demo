@@ -14,17 +14,17 @@
       "image": "/img/jennifer.0e31d487.webp",
       "subcomponents": [
         {
+          "type": "stat",
+          "icon": "/img/icon-1.svg",
+          "number": "4M+",
+          "description": "people a year take AbbVie medicines in the U.S."
+        },
+        {
           "type": "quote",
           "quote": "\"They're dedicating their lives and their science to make the world a better place. If I were to meet the AbbVie scientists. I would just hug them.\"",
           "source": "Jennifer",
           "cta_label": "Watch Jennifer's story",
           "cta_url": "https://youtu.be/-JupxuNziqo"
-        },
-        {
-          "type": "stat",
-          "icon": "/img/icon-1.svg",
-          "number": "4M+",
-          "description": "people a year take AbbVie medicines in the U.S."
         }
       ]
     },
