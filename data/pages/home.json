@@ -10,12 +10,6 @@
   ],
   "components": [
     {
-      "type": "component_1",
-      "image": "/img/maurizio-mobile.0183a7a2.webp",
-      "headline": "How do we help patients?",
-      "description": "We discover and deliver medicines that make a remarkable impact on patients right now."
-    },
-    {
       "type": "component_2",
       "image": "/img/jennifer.0e31d487.webp",
       "subcomponents": [
@@ -33,6 +27,12 @@
           "description": "people a year take AbbVie medicines in the U.S."
         }
       ]
+    },
+    {
+      "type": "component_1",
+      "image": "/img/maurizio-mobile.0183a7a2.webp",
+      "headline": "How do we help patients?",
+      "description": "We discover and deliver medicines that make a remarkable impact on patients right now."
     },
     {
       "type": "component_3",
