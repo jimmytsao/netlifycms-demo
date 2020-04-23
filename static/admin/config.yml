@@ -10,7 +10,7 @@ collections:
     label: 'Pages'
     format: 'json'
     folder: 'data/pages'
-    create: true
+    create: false
     slug: '{{slug}}'
     editor:
       preview: false
